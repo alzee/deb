@@ -6,4 +6,3 @@ RUN useradd -m -s /bin/bash $USER \
     && echo $USER:$USER | chpasswd
 USER $USER
 WORKDIR /home/$USER
-CMD ["bash"]
